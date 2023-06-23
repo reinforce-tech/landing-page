@@ -1,0 +1,28 @@
+.logo{
+  position: absolute;
+  right: 220px;
+  bottom: 400px;
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0.8;
+  border: #34e718 4px solid;
+}
+
+
+.logo-container{
+  z-index: 100;
+}
+
+.pic-this{
+  height: 30px;
+  margin-bottom: 0;
+}
+
+.socials{
+  display: flex;
+  justify-content:start;
+  gap: 6px;
+}
