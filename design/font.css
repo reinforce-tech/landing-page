@@ -1,0 +1,53 @@
+body{
+  display: flex;
+  margin: 50px 50px 0 50px;
+  font-family: "Poppins", sans-serif;
+  background-color: #010409f5;
+  color: white;
+  height: 100vh;
+  
+}
+
+.main{
+  flex: 1;
+}
+
+p{
+  display: flex;
+  font-size: 16; 
+}
+
+h1{
+  font-size: 5rem;
+  font-family: "Poppins", sans-serif;
+  margin-top: 30px;
+  font-weight: bolder;
+}
+
+.rence{
+  opacity: 0.5;
+  font-size: 70px;
+
+}
+
+.rence2{
+  color: #73BBC9;
+}
+
+
+.left-card{
+  margin-top: 20px;
+  font-weight: none;
+  z-index: 100;
+}
+
+.drift{
+  height: 450px;
+  position: fixed;
+  flex-direction: row;
+  right: 30px;
+  bottom: 0;
+  z-index: -1;
+}
+
+
